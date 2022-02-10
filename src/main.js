@@ -10,6 +10,10 @@ import './styles/index.less'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 
+// 通过npm i -S amfe-flexible安装lib-flexible,并在main.js文件中导入
+// 动态设置rem基准值
+import 'amfe-flexible'
+
 const app = createApp(App)
 app.use(store)
 app.use(router)
